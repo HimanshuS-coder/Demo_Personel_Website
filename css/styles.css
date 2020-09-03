@@ -19,6 +19,24 @@ hr{
   border-width: 5px;
   width: 7%;
 }
+.btn{
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  border: solid green;
+  color: red;
+  text-decoration: none;
+  transition-duration: 0.5s;
+}
+.btn:hover{
+  background-color: green;
+  color: white;
+
+
+}
+.love{
+  margin-bottom: 4rem;
+}
 .top-container{
   background-color: #f4f6ff;
   padding-top: 100px;
@@ -41,16 +59,22 @@ hr{
   margin-bottom: 0;
   margin-top: 4.37rem;
 }
+.heading2{
+  font-size: 2.5rem;
+  margin-bottom: 4rem;
+}
 .subheading1{
   font-size: 1.5rem;
   font-family: 'Strait', sans-serif;
   margin-top: 1rem;
   font-weight: 200;
 }
+.subheading2{
+  margin-bottom: 3rem;
+}
 .skill-row{
   width: 50%;
   margin: auto;
-  margin-top: 100px;
   margin-bottom: 100px;
   text-align: left;
   line-height: 2;
@@ -82,6 +106,9 @@ hr{
 .desc-margin{
   margin-bottom: 40px;
   margin-top: 40px;
+}
+.contact-me{
+  margin-bottom: 50px;
 }
 /*
 THIS IS USED TO MAKE THE CONTENT , THAT IT DOESN'T WRAP THE OTHER CONTENT WHICH IS FLOATING
