@@ -2,13 +2,14 @@
 body{
   margin: 0;
   text-align: center;
-  font-family: freemono;
+
 
 
 }
 
 p{
   margin-bottom: 30px;
+  font-family: 'Quicksand', sans-serif;
 }
 span{
   text-decoration: underline;
@@ -18,21 +19,30 @@ hr{
   border-style: dotted none none none;
   border-width: 5px;
   width: 7%;
+  color: #10375c;
+}
+.h2{
+  margin-bottom: 40px;
+  margin-top: 40px;
+  font-family: 'Strait', sans-serif;
+  font-size: 1.8rem;
+  letter-spacing: 3px;
+  color: #127681;
 }
 .btn{
   background-color: white;
   padding: 10px;
   border-radius: 10px;
-  border: solid green;
-  color: red;
+  border: solid #127681;
+  color: #127681;
+  font-weight: bolder;
   text-decoration: none;
   transition-duration: 0.5s;
+  font-family: 'Quicksand', sans-serif;
 }
 .btn:hover{
-  background-color: green;
+  background-color: #127681;
   color: white;
-
-
 }
 .love{
   margin-bottom: 4rem;
@@ -58,10 +68,13 @@ hr{
   font-family: 'Euphoria Script', cursive;
   margin-bottom: 0;
   margin-top: 4.37rem;
+  color: #A61C3C;
 }
 .heading2{
   font-size: 2.5rem;
   margin-bottom: 4rem;
+  font-family: 'Arvo', serif;
+  color: #127681;
 }
 .subheading1{
   font-size: 1.5rem;
@@ -71,6 +84,7 @@ hr{
 }
 .subheading2{
   margin-bottom: 3rem;
+  font-family: 'Quicksand', sans-serif;
 }
 .skill-row{
   width: 50%;
@@ -109,6 +123,47 @@ hr{
 }
 .contact-me{
   margin-bottom: 50px;
+}
+.bottom-container{
+  margin-top: 80px;
+  background-color: #10375c;
+  position: relative;
+  padding-bottom: 1px;
+  padding-top: 20px;
+}
+.copyright{
+  margin-top: 20px;
+  color: white;
+  font-size: 1.1rem;
+}
+.footer-link{
+  font-weight: bold;
+  color: #f3c623;
+  text-decoration: none;
+  margin: 20px;
+  font-size: 1.2rem;
+  font-family: 'Arvo', serif;
+  transition-duration: 0.2s;
+  position: relative;
+  display: inline-block;
+}
+.footer-link img{
+  width: 20px;
+  margin-top: 1px;
+  height: 20px;
+  float: left;
+  margin-right: 5px;
+
+}
+.footer-link:hover{
+  font-weight: bold;
+  color: #f3c623;
+  padding: 3px;
+  border: solid;
+  text-decoration: none;
+  margin: 14px;
+  font-size: 1.2rem;
+  font-family: 'Arvo', serif;
 }
 /*
 THIS IS USED TO MAKE THE CONTENT , THAT IT DOESN'T WRAP THE OTHER CONTENT WHICH IS FLOATING
