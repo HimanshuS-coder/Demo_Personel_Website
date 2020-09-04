@@ -164,7 +164,9 @@ hr{
   margin: 14px;
   font-size: 1.2rem;
   font-family: 'Arvo', serif;
+  transform: scale(1.1);
 }
+
 /*
 THIS IS USED TO MAKE THE CONTENT , THAT IT DOESN'T WRAP THE OTHER CONTENT WHICH IS FLOATING
 
